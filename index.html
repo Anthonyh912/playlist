@@ -6,35 +6,35 @@
         <link type="text/css" rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-        <!-- Your Javascript -->
-        <script src="js/script.js"></script>
-
         <h1 class = "playlistTitle" > My Playlist </h1> 
 
         <div class = "inputSection"> 
 
             <p> 
-                <input placeholder= "Song Name">
-                <input placeholder= "Artist Name"> 
-                <input placeholder= "Song Length">
+                <input placeholder= "Song Name" class = "song">
+                <input placeholder= "Artist Name" class = "artist"> 
+                <input placeholder= "Song Length" class = "length">
             </p>
-          
+        
             <p> 
-                <input placeholder= "Link For Picture">
-                <input placeholder= "Link For Song">
+                <input placeholder= "Link For Picture" class = "picture">
+                <input placeholder= "Link For Song" class = "link">
             </p>
 
             <p> 
-                <button> Add To Playlist </button>
+                <button class = "add"> Add To Playlist </button>
             </p> 
             
+        </div>   
+
+        <div class = "songList"> 
+
         </div> 
 
 
-
-
-
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <!-- Your Javascript -->
+        <script src="js/script.js"></script>
     </body>
 </html>
