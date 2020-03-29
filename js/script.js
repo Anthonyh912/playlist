@@ -20,11 +20,13 @@ $(".add").click(function() {
     $(".songList").empty();
 
     songInfo.forEach(function(info) {
+
         $(".songList").append(`
-        <div> ${info.songName} </div> 
-        <div> ${info.artistName} </div>
-        <div> Song Length: ${info.songLength}</div>
-        <div> <a href = "${info.songLink}" > Click To Hear Song </a> </div>
+            <div> <img src =" ${info.songPic}" > </div>
+            <div class = "info"> ${info.songName} - ${info.artistName} </div> 
+            <div> Song Length: ${info.songLength}</div>
+            <div> <a href = "${info.songLink}" > Click To Hear Song </a> </div>
+            <div> <br> </div> 
         `);
         
         
